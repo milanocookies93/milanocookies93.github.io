@@ -39,9 +39,15 @@ body {
 #body {
   margin-top: 15px;
   background-color: #FFFFFF;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
 }
 
 #footer {
   background-color: #FFFFFF;
-  margin-top: 15px; 
+  margin-top: 15px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
 }
