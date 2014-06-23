@@ -1,7 +1,7 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: #000000;
-  background: #D3D3D3 url('img/bg-texture.jpg')  repeat;
+  background: url('img/bg-texture.jpg');
 }
 
 #bodytext {
