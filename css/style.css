@@ -4,11 +4,19 @@ body {
   background: url('img/bg-texture.jpg');
 }
 
+.container{
+  width: 1000px; 
+  margin: auto;
+}
+
 #bodytext {
   margin: 15px;
 }
 
 #lastup {
+  width: 405px;
+  float: left;
+  display: block;
   text-align: left;
   margin-right: 80px;
   margin-left: 15px;
@@ -17,6 +25,9 @@ body {
 }
 
 #btns {
+  width: 405px;
+  float: left;
+  display: block;
   text-align: right;  
   margin-right: 15px;
   margin-left: 80px;
@@ -37,6 +48,10 @@ body {
 }
 
 #body {
+  width: 1000px;
+  float: left;
+  display: block;
+  text-align: left;
   margin-top: 15px;
   background-color: #FFFFFF;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
@@ -45,6 +60,10 @@ body {
 }
 
 #footer {
+  width: 1000px;
+  float: left;
+  display: block;
+  text-align: left;
   background-color: #FFFFFF;
   margin-top: 15px;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
