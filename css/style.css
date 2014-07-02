@@ -1,5 +1,4 @@
 body {
-  font-family: 'Nunito', sans-serif;
   color: #000000;
   background: url('img/bg-texture.jpg');
 }
@@ -44,7 +43,7 @@ p {
 }
 
 #navbutton {
-  font-family: Impact, sans-serif;
+  font-family: Exo, sans-serif;
   float: right;
   display: block;
   width: 100px;
