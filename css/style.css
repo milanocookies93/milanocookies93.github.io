@@ -126,7 +126,7 @@ p {
 @media (max-width: 500px) {
 
   .container{
-    width: 240px;
+    width: 273px;
   }
 
   #footer {
@@ -134,21 +134,17 @@ p {
   }
 
   #lastup {
-    margin-left: 24px;
+    margin-left: 40px;
     width: 191px;
   }
 
   #btns {
-    margin-right: 11px;
+    margin-right: 27px;
     width: 217px;
   }
 
-  #signature {
-    width: 240px; 
-  }
-
   #navbutton {
-    width: 240px;
+    width: 273px;
   }
 
 }
