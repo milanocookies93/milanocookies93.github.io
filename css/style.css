@@ -98,53 +98,27 @@ p {
   margin-bottom: 15px;
 }
 
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (max-width: 1000px) {
 
-  .container{
-    width: 500px;
+  .container {
+    width: 750px;
   }
 
   #lastup {
-    width: 230px;
+    width: 360px;
   }
 
   #btns {
-    width: 240px;
+    width: 360px;
   }
 
   #signature {
-    margin-left: 113px;
-    margin-right: 114px; 
+    margin-left: 238px;
+    margin-right: 239px; 
   }
 
   #header {
-    margin-right: 30px;
-  }
-
-}
-
-@media (max-width: 500px) {
-
-  .container{
-    width: 273px;
-  }
-
-  #footer {
-    padding: 0px;
-  }
-
-  #lastup {
-    margin-left: 40px;
-    width: 191px;
-  }
-
-  #btns {
-    margin-right: 27px;
-    width: 217px;
-  }
-
-  #navbutton {
-    width: 273px;
+    margin-right: 155px;
   }
 
 }
