@@ -1,7 +1,9 @@
 body {
   color: #000000;
-  background: url('img/bg-texture.jpg');
+  background: url('img/bg-texture.jpg') no-repeat center center fixed; 
 }
+
+
 
 h4 {
   margin: 12px 0px;
@@ -10,6 +12,15 @@ h4 {
 p {
   font-size: 16px;
   margin: 12px 0px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 .container{
@@ -40,51 +51,45 @@ p {
   opacity: 1;
 }
 
-#navbutton {
-  font-family: Exo, sans-serif;
-  float: right;
-  display: block;
-  width: 100px;
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 0px;
-  text-align: center;
-  border-radius: 5px 5px 5px 5px;
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
-  background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
-  background-color:#5f5f5f;
-  color: #EDEDED;
-}
-
 .on, #navbutton:hover
 {
-    moz-box-shadow:    inset 0 0 10px #000000;
-   -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow:         inset 0 0 10px #000000;
+  color: #FFCC00;
+  text-decoration: underline;
+}
 
+#navbutton {
+  font-family: 'Lato', sans-serif;
+  float: right;
+  display: block;
+  margin-top: 0px;
+  margin-left: 39px;
+  margin-right: 0px;
+  text-align: right;
+  color: #000000;
 }
 
 #signature {
   color: #000000;
   float: left;
-  margin-top: 15px;
-  margin-bottom: 0px;
+  margin-right: 174px;
   font-family: 'Lato', serif;
   font-style: italic;
   font-size: 40px;
   font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
   width: 273px;
 }
 
 
 #body {
-  margin-top: 15px;
   float: left;
   display: block;
   text-align: left;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #FFFFFF;
+  margin-bottom: 5px;
 }
 
 #footer {
@@ -94,31 +99,15 @@ p {
   background-color: #FFFFFF;
   padding-left: 15px;
   padding-right: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
 }
 
-@media (max-width: 1000px) {
-
-  .container {
-    width: 750px;
+#header {
+  float: left;
+  display: block;
+  text-align: left;
+  background-color: #FFFFFF;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 30px;
   }
-
-  #lastup {
-    width: 360px;
-  }
-
-  #btns {
-    width: 360px;
-  }
-
-  #signature {
-    margin-left: 238px;
-    margin-right: 239px; 
-  }
-
-  #header {
-    margin-right: 100px;
-  }
-
-}
