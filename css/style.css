@@ -61,17 +61,18 @@ a:hover {
   font-family: 'Lato', sans-serif;
   float: right;
   display: block;
+  width: 100px;
   margin-top: 0px;
-  margin-left: 39px;
+  margin-left: 0px;
   margin-right: 0px;
-  text-align: right;
+  text-align: center;
   color: #000000;
 }
 
 #signature {
   color: #000000;
   float: left;
-  margin-right: 174px;
+  margin-right: 197px;
   font-family: 'Lato', serif;
   font-style: italic;
   font-size: 40px;
