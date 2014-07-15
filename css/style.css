@@ -28,6 +28,15 @@ a:hover {
   margin: auto;
 }
 
+.divider {
+  float: left;
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  height: 1px;
+  background-color: #999;
+}
+
 #lastup {
   width: 485px;
   float: left;
@@ -62,9 +71,8 @@ a:hover {
   float: right;
   display: block;
   width: 100px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  height: 55px;
+  margin: 0px;
   text-align: center;
   color: #000000;
 }
@@ -110,5 +118,6 @@ a:hover {
   padding-top: 5px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 5px;
   margin-top: 30px;
   }
