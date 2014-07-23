@@ -3,8 +3,6 @@ body {
   background: url('img/bg-texture.jpg') no-repeat center center fixed; 
 }
 
-
-
 h4 {
   margin: 12px 0px;
 }
@@ -36,6 +34,12 @@ a:hover {
   height: 1px;
   background-color: #999;
 }
+
+#profile {
+    float: left;
+    margin: 10px;
+    max-width: 160px;
+  }
 
 #lastup {
   width: 485px;
