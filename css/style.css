@@ -9,7 +9,7 @@ h4 {
 
 p {
   font-size: 16px;
-  margin: 12px 0px;
+  margin: 0px 0px 12px 0px;
 }
 
 a {
@@ -27,8 +27,8 @@ a:hover {
 }
 
 .divider {
-  float: left;
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   width: 90%;
   margin-left: 5%;
   height: 1px;
@@ -37,7 +37,7 @@ a:hover {
 
 #profile {
     float: left;
-    margin: 10px;
+    margin-right: 10px;
     max-width: 160px;
   }
 
@@ -46,6 +46,7 @@ a:hover {
   float: left;
   display: block;
   text-align: left;
+  margin: 12px 0px;
 }
 
 #btns {
@@ -77,7 +78,7 @@ a:hover {
   width: 100px;
   height: 55px;
   margin: 0px;
-  text-align: center;
+  text-align: right;
   color: #000000;
 }
 
@@ -94,17 +95,6 @@ a:hover {
   width: 273px;
 }
 
-
-#body {
-  float: left;
-  display: block;
-  text-align: left;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #FFFFFF;
-  margin-bottom: 5px;
-}
-
 #footer {
   float: left;
   display: block;
@@ -112,6 +102,7 @@ a:hover {
   background-color: #FFFFFF;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 5px;
 }
 
 #header {
