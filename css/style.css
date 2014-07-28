@@ -78,6 +78,7 @@ a:hover {
   width: 100px;
   height: 55px;
   margin-bottom: 5px;
+  margin-left: 5px;
   text-align: center;
   color: #000000;
 }
@@ -85,7 +86,7 @@ a:hover {
 #signature {
   color: #000000;
   float: left;
-  margin-right: 197px;
+  margin-right: 172px;
   font-family: 'Lato', serif;
   font-style: italic;
   font-size: 40px;
