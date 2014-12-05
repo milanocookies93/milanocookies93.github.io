@@ -1,3 +1,0 @@
-[submodule "vendor/doppio"]
-	path = vendor/doppio
-	url = git@github.com:angrave/doppio.git 
