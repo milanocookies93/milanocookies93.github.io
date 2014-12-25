@@ -4,13 +4,7 @@ body {
   font-family: 'Lato',sans-serif;
 }
 
-h4 {
-  margin: 12px 0px;
-}
 
-p {
-  margin: 0px 0px 12px 0px;
-}
 
 a {
   text-decoration: none;
@@ -40,6 +34,7 @@ a:hover {
     float: left;
     margin-right: 10px;
     max-width: 160px;
+    margin-top: 20px;
   }
 
 #lastup {
