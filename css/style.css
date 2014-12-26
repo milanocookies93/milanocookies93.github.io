@@ -68,32 +68,18 @@ a:hover {
 }
 
 #navbuttons {
-  width: 900px;
+  width: 870px;
   margin: auto;
 }
 
 #navbutton {
   float: left;
-  display: block;
   width: 100px;
-  height: 55px;
   margin-bottom: 5px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 37px;
+  margin-right: 37px;
   text-align: center;
   color: #000000;
-}
-
-#signature {
-  color: #000000;
-  float: left;
-  margin-right: 172px;
-  font-style: italic;
-  font-size: 40px;
-  font-weight: lighter;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  width: 283px;
 }
 
 #footer {
@@ -104,6 +90,7 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 5px;
+  width: 970px;
 }
 
 #header {
@@ -116,6 +103,7 @@ a:hover {
   padding-right: 15px;
   padding-bottom: 5px;
   margin-top: 30px;
+  width: 970px;
   }
 
   /* mobile */
@@ -139,6 +127,10 @@ a:hover {
   margin-right: 0px;
   text-align: center;
   color: #000000;
+}
+
+#header {
+  width: calc(100% - 30px);
 }
 
 #footer {
