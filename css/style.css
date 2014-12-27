@@ -83,18 +83,17 @@ a:hover {
 
 #footer {
   float: left;
-  display: block;
   text-align: left;
   background-color: #FFFFFF;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 5px;
+  margin-bottom: 30px;
   width: 970px;
 }
 
 #header {
   float: left;
-  display: block;
   text-align: left;
   background-color: #FFFFFF;
   padding-top: 5px;
