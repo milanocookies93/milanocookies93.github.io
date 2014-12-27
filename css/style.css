@@ -11,7 +11,7 @@ body {
 
 
 
-p { width: 100%; display: block;}
+p { width: 100%; display: block; font-size: 17px;}
 
 a {
   text-decoration: none;
@@ -87,6 +87,7 @@ a:hover {
   margin-right: 37px;
   text-align: center;
   color: #000000;
+  font-size: 20px;
 }
 
 #footer {
@@ -164,6 +165,6 @@ a:hover {
 
  @media (max-width:387px) {
   #profile {
-    width: 0px;
+    display: none;
   }
  }
