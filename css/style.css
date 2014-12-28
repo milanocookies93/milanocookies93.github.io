@@ -11,7 +11,7 @@ body {
 
 
 
-p { width: 100%; display: block; font-size: 17px;}
+p { width: 100%; display: block; font-size: 100%;}
 
 a {
   text-decoration: none;
@@ -87,7 +87,7 @@ a:hover {
   margin-right: 37px;
   text-align: center;
   color: #000000;
-  font-size: 15px;
+  font-size: 100%;
 }
 
 #footer {
